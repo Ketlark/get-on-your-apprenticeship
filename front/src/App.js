@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './hogwarts.png';
+import './assets/index.css'
 import './App.css';
 
 class App extends Component {
