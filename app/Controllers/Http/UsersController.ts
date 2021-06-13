@@ -1,3 +1,4 @@
+import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import got from 'got'
 
 export default class UsersController {
@@ -26,8 +27,12 @@ export default class UsersController {
     ])
   }
 
-  public async real() {
-    return await got('http://hp-api.herokuapp.com/api/characters').json();
+  public async real({ request }: HttpContextContract) {
+    const { house } = request.qs();
+    const students: object[] = await got('http://hp-api.herokuapp.com/api/characters').json();
+
+    //@ts-ignore
+    return house ? students.filter(s => s.house === house) : students;
   }
 
   public async rand() {
