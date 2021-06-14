@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/get-on-your-apprenticeship/static/css/main.46bcac6e.chunk.css",
-    "main.js": "/get-on-your-apprenticeship/static/js/main.d13fd591.chunk.js",
-    "main.js.map": "/get-on-your-apprenticeship/static/js/main.d13fd591.chunk.js.map",
+    "main.js": "/get-on-your-apprenticeship/static/js/main.97f95a7f.chunk.js",
+    "main.js.map": "/get-on-your-apprenticeship/static/js/main.97f95a7f.chunk.js.map",
     "runtime-main.js": "/get-on-your-apprenticeship/static/js/runtime-main.08b9ffc2.js",
     "runtime-main.js.map": "/get-on-your-apprenticeship/static/js/runtime-main.08b9ffc2.js.map",
     "static/js/2.e0a7be5c.chunk.js": "/get-on-your-apprenticeship/static/js/2.e0a7be5c.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.08b9ffc2.js",
     "static/js/2.e0a7be5c.chunk.js",
     "static/css/main.46bcac6e.chunk.css",
-    "static/js/main.d13fd591.chunk.js"
+    "static/js/main.97f95a7f.chunk.js"
   ]
 }
