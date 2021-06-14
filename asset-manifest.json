@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/get-on-your-apprenticeship/static/css/main.46bcac6e.chunk.css",
+    "main.js": "/get-on-your-apprenticeship/static/js/main.d13fd591.chunk.js",
+    "main.js.map": "/get-on-your-apprenticeship/static/js/main.d13fd591.chunk.js.map",
+    "runtime-main.js": "/get-on-your-apprenticeship/static/js/runtime-main.08b9ffc2.js",
+    "runtime-main.js.map": "/get-on-your-apprenticeship/static/js/runtime-main.08b9ffc2.js.map",
+    "static/js/2.e0a7be5c.chunk.js": "/get-on-your-apprenticeship/static/js/2.e0a7be5c.chunk.js",
+    "static/js/2.e0a7be5c.chunk.js.map": "/get-on-your-apprenticeship/static/js/2.e0a7be5c.chunk.js.map",
+    "static/js/3.2a60f593.chunk.js": "/get-on-your-apprenticeship/static/js/3.2a60f593.chunk.js",
+    "static/js/3.2a60f593.chunk.js.map": "/get-on-your-apprenticeship/static/js/3.2a60f593.chunk.js.map",
+    "index.html": "/get-on-your-apprenticeship/index.html",
+    "static/css/main.46bcac6e.chunk.css.map": "/get-on-your-apprenticeship/static/css/main.46bcac6e.chunk.css.map",
+    "static/js/2.e0a7be5c.chunk.js.LICENSE.txt": "/get-on-your-apprenticeship/static/js/2.e0a7be5c.chunk.js.LICENSE.txt",
+    "static/media/hogwarts.1cf84289.png": "/get-on-your-apprenticeship/static/media/hogwarts.1cf84289.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08b9ffc2.js",
+    "static/js/2.e0a7be5c.chunk.js",
+    "static/css/main.46bcac6e.chunk.css",
+    "static/js/main.d13fd591.chunk.js"
+  ]
+}
