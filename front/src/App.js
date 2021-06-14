@@ -16,6 +16,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { apiResponse: "", tabValue: '1', filter: 'Gryffindor' };
+    this.baseURL = process.env.NODE_ENV || process.env.NODE_ENV === 'development' ? "http://localhost:3333/" : "https://get-on-your-apprenticeship.herokuapp.com/"
 
     this.realData = null;
     this.dummyData = null;
@@ -24,22 +25,22 @@ class App extends Component {
   }
 
   async callDummyAPI() {
-    const res = await axios("http://localhost:3333/dummy/students", { headers: { 'Access-Control-Allow-Origin' : '*'}});
+    const res = await axios(this.baseURL + "dummy/students", { headers: { 'Access-Control-Allow-Origin' : '*'}});
     this.setState({dummyData: res.data});
   }
 
   async callRealAPI() {
-    const res = await axios("http://localhost:3333/real/students", { headers: { 'Access-Control-Allow-Origin' : '*'}});
+    const res = await axios(this.baseURL + "real/students", { headers: { 'Access-Control-Allow-Origin' : '*'}});
     this.setState({realData: res.data});
   }
 
   async callRandomAPI() {
-    const res = await axios("http://localhost:3333/real/randomstudent", { headers: { 'Access-Control-Allow-Origin' : '*'}});
+    const res = await axios(this.baseURL + "real/randomstudent", { headers: { 'Access-Control-Allow-Origin' : '*'}});
     this.setState({randomData: res.data});
   }
 
   async callFilteredAPI(filter) {
-    const res = await axios("http://localhost:3333/real/students?house=" + filter, { headers: { 'Access-Control-Allow-Origin' : '*'}});
+    const res = await axios(this.baseURL + "real/students?house=" + filter, { headers: { 'Access-Control-Allow-Origin' : '*'}});
     this.setState({filteredData: res.data});
   }
 
