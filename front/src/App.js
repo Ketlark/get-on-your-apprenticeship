@@ -16,7 +16,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { apiResponse: "", tabValue: '1', filter: 'Gryffindor' };
-    this.baseURL = process.env.NODE_ENV || process.env.NODE_ENV === 'development' ? "http://localhost:3333/" : "https://get-on-your-apprenticeship.herokuapp.com/"
+    this.baseURL = process.env.NODE_ENV === 'development' ? "http://localhost:3333/" : "https://get-on-your-apprenticeship.herokuapp.com/"
 
     this.realData = null;
     this.dummyData = null;
